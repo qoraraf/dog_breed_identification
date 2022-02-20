@@ -72,8 +72,11 @@ Using gradio and with following requirements:
 - opencv_python==4.5.5.62
 - tensorflow==2.7.0
 - tqdm==4.62.3
-The following we app has been generated
 
+The following we app has been generated:
+
+![Screenshot1](screenshot%20(3).png)
+![Screenshot2](screenshot%20(4).png)
 
 ## Acknowledgement:
 This is one of the capstone projects for Data Scientist nanodegree at Udacity. Sponsored by Misk and Udacity in Saudi Arabia.
