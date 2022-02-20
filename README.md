@@ -73,6 +73,8 @@ Using gradio and with following requirements:
 - tensorflow==2.7.0
 - tqdm==4.62.3
 
+To run the app, first install and import the requirements and then run app2.py (e.g. on your local server). In output you'll get a local url and a temporarily public url on gradio servers.
+
 The following we app has been generated:
 
 ![Screenshot1](screenshot%20(3).png)
