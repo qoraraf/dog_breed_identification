@@ -1,10 +1,15 @@
 # Human and dog identification & Breed Classificatin
 Udacity Data Scientist project
 
+## Objective:
+Create a web app to identify humans or dogs in uploaded images and then classify the image with the most resembling dog breed using Transfer learning.
+In this project Gradio is used and the app is hosted temporarily on gradio at: [https://23267.gradio.app](https://23267.gradio.app)
+
+
 In this project different models are used:
 1) to detect human faces
 2) to detect dogs
-3) to classify dog brees
+3) to classify dog breeds
 
 First of all a CNN from scratch is used to classify dog breeds, then using Transfer Learning I did the same using Inception model
 
@@ -58,6 +63,16 @@ Non-trainable params: 0
 
 ## Transfer Learning
 And to reduce training time Transfer Learning is used to classify dog breeds using [Inception](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz) bottleneck features and achieved a test accuracy of 79% and this can be improved by using augmentation and adding more layers and nodes, and just enough training epochs
+
+## Web app:
+Using gradio and with following requirements:
+- gradio==2.7.5.2
+- keras==2.7.0
+- numpy==1.20.3
+- opencv_python==4.5.5.62
+- tensorflow==2.7.0
+- tqdm==4.62.3
+The following we app has been generated
 
 
 ## Acknowledgement:
