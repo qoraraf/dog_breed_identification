@@ -3,7 +3,7 @@ Udacity Data Scientist project
 
 ## Objective:
 Create a web app to identify humans or dogs in uploaded images and then classify the image with the most resembling dog breed using Transfer learning.
-In this project Gradio is used and the app is hosted temporarily on gradio at: [https://31806.gradio.app](https://31806.gradio.app)
+In this project Gradio is used and the app is found at: [https://github.com/qoraraf/dog_breed_identification/blob/main/app.py](https://github.com/qoraraf/dog_breed_identification/blob/main/app.py)
 
 The jupter notebook is to be found at: https://github.com/qoraraf/dog_breed_identification/blob/main/dog-app2.ipynb
 
